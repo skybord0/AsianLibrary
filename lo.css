@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url("file:///C:/biswa/matias-north-v8DSLoY80Xk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+li a {
+    float: left;
+    transition: 0.9s ease;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 8px black;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+    padding: 3px 23px;
+    margin: 3px;
+}
+li a:hover {
+    background-color: skyblue;
+    color: white;
+}
+h1 {
+    color: rgb(255, 196, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    font-size: 50px;
+    animation: mymove 4s infinite;
+}
+@keyframes mymove{
+    50%{text-shadow:4px 4px 8px rgb(255, 255, 255),4px 4px 4px rgb(0, 0, 0);}
+}
+p {
+    color: rgb(255, 255, 255);
+    text-shadow:4px 4px 8px rgb(0, 0, 0),4px 4px 4px rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    font-size: 15px;
+}
+.box1 [href="file:///C:/biswa/New%20folder/biswa.html"] {
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1px solid transparent;
+    background-color: rgb(141, 72, 72);
+    
+}
+.box1 [href="#"]:hover {
+    background-color: 
+}
